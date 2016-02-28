@@ -86,3 +86,6 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
+.hovereffect img {
+	min-height: 155px;
+}

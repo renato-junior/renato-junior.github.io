@@ -22,6 +22,11 @@ app.config(function($routeProvider) {
       templateUrl: "apps.html"
     }
   )
+  .when("/contact", 
+    {
+      templateUrl: "contact.html"
+    }
+  )
   .otherwise(
     {
       redirectTo: "/"    

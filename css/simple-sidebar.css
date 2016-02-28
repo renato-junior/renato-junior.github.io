@@ -123,3 +123,32 @@
         margin-right: 0;
     }
 }
+
+@media(max-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 50%;
+        height: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 100%;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}

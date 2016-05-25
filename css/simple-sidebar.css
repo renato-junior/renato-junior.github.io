@@ -155,4 +155,8 @@
         position: relative;
         margin-right: 0;
     }
+
+    #footP {
+        visibility: hidden;
+    }
 }

@@ -4,32 +4,32 @@ app.config(function($routeProvider) {
   
   $routeProvider.when("/", 
     {
-      templateUrl: "inicial.html"
+      templateUrl: "en/inicial.html"
     }
   )
   .when("/academic", 
     {
-      templateUrl: "academico.html"
+      templateUrl: "en/academico.html"
     }
   )
   .when("/websites", 
     {
-      templateUrl: "websites.html"
+      templateUrl: "en/websites.html"
     }
   )
   .when("/apps", 
     {
-      templateUrl: "apps.html"
+      templateUrl: "en/apps.html"
     }
   )
   .when("/contact", 
     {
-      templateUrl: "contact.html"
+      templateUrl: "en/contact.html"
     }
   )
   .when("/tech", 
     {
-      templateUrl: "tech.html"
+      templateUrl: "en/tech.html"
     }
   )
   .otherwise(
@@ -37,4 +37,5 @@ app.config(function($routeProvider) {
       redirectTo: "/"    
     }
   );
+
 });

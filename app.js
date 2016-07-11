@@ -1,6 +1,48 @@
-var app = angular.module('routeApp', ['ngRoute']);
+var appPT = angular.module('routeAppPT', ['ngRoute']);
 
-app.config(function($routeProvider) {
+appPT.config(function($routeProvider) {
+  
+  $routeProvider.when("/", 
+    {
+      templateUrl: "pt/inicial.html"
+    }
+  )
+  .when("/academic", 
+    {
+      templateUrl: "pt/academico.html"
+    }
+  )
+  .when("/websites", 
+    {
+      templateUrl: "pt/websites.html"
+    }
+  )
+  .when("/apps", 
+    {
+      templateUrl: "pt/apps.html"
+    }
+  )
+  .when("/contact", 
+    {
+      templateUrl: "pt/contact.html"
+    }
+  )
+  .when("/tech", 
+    {
+      templateUrl: "pt/tech.html"
+    }
+  )
+  .otherwise(
+    {
+      redirectTo: "/"    
+    }
+  );
+
+});
+
+var appEN = angular.module('routeAppEN', ['ngRoute']);
+
+appEN.config(function($routeProvider) {
   
   $routeProvider.when("/", 
     {

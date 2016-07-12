@@ -1,5 +1,9 @@
-body{
+body {
 	position: relative;
+}
+
+.top-buffer {
+	margin-top: 20px;
 }
 
 #showSidebar {

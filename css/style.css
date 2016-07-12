@@ -1,3 +1,12 @@
+body{
+	position: relative;
+}
+
+#showSidebar {
+    width: 40px;
+    position: absolute;
+}
+
 #footP {
 	position: absolute;
 	bottom: 0;

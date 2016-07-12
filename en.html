@@ -15,9 +15,6 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="showSidebar">
-			<img src="media/side.png">
-		</div>
 		<div id="wrapper">
 			<!-- Sidebar -->
 			<div id="sidebar-wrapper">
@@ -52,6 +49,9 @@
 				</div>
 			</div>
 		</div>
+		<div id="showSidebar">
+			<img src="media/side.png">
+		</div>
 		<script>
 		$("#showSidebar").hide();
 		if($("body").width() < 768){
@@ -59,7 +59,7 @@
 			$("#showSidebar").show();
 		}
 		$("#showSidebar").click(function(){
-			$("#sidebar-wrapper").css("width", "50%");
+			$("#sidebar-wrapper").css("width", "60%");
 		});
 		$("#sidebar-wrapper").click(function(){
 			if($("body").width() < 768){

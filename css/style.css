@@ -12,9 +12,12 @@ body {
 }
 
 #footP {
+	text-align: center;
 	position: absolute;
 	bottom: 0;
 	font-style: italic;
+	color: #999999;
+	width: 100%;
 }
 
 .hovereffect {

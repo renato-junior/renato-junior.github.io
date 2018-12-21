@@ -137,6 +137,7 @@
     #sidebar-wrapper {
         width: 50%;
         height: 100%;
+        overflow-x: hidden;
     }
 
     #wrapper.toggled #sidebar-wrapper {
@@ -151,9 +152,5 @@
     #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
-    }
-
-    #footP {
-        visibility: hidden;
     }
 }
